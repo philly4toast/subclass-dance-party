@@ -1,6 +1,6 @@
 var MakeBlinkyDancer = function (top, left, timeBetweenSteps) {
   MakeDancer.call(this, top, left, timeBetweenSteps);
-
+  this.$node.prepend('<img class="gif" src = "img/carlton.gif" />');
 };
 
 MakeBlinkyDancer.prototype = Object.create(MakeDancer.prototype);

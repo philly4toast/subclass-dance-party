@@ -5,6 +5,7 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url("https://edmidentity.com/wp-content/uploads/2019/11/49698466_1043267852527433_2640797067563237376_o.jpg")
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -21,7 +22,13 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  /* border:100px solid red;s */
+  /* background-image: url('https://media.giphy.com/media/l1BgT4M5bQq84JhXq/giphy.gif'); */
+  border-radius:100%;
   position:absolute;
+}
+
+.gif{
+  width:300px;
+  height:500px;
 }
